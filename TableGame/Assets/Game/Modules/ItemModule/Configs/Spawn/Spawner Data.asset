@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ec15fdbd9a04f55b21d5cad1ee6ca3e, type: 3}
+  m_Name: Spawner Data
+  m_EditorClassIdentifier: 
+  totalInstanceCount: 10
+  itemViewsPrefabs:
+  - {fileID: 1517420971561524741, guid: f4f98c72e6c7db94293b726e0cb757e7, type: 3}
+  - {fileID: 4653961056973405794, guid: 256b3422b6764174f9d4d1a5997705e8, type: 3}
+  gridParameters: {fileID: 11400000, guid: af004feda34362f4587832a08d3c3814, type: 2}
