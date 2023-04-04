@@ -35,9 +35,11 @@ namespace TableGame.Modules.InputModule.Core
 			selectedIdentifier = new ReactiveProperty<IIdentifier>(null);
 
 			selectedIdentifier.
-				ObserveEveryValueChanged(e => e.Value).
-				Subscribe(id => bus.TryFire(new SelectSignal(id))).
+				ObserveEveryValueChanged(__e => __e.Value).
+				Subscribe(__id => bus.TryFire(new SelectSignal(__id))).
 				AddTo(camera);
+
+			StartUpdate();
 		}
 		
 		private void StartUpdate()
